@@ -6,6 +6,8 @@
     <title> UAB/Enginyeria </title>
 
     <!-- completa -->
+    <link rel="stylesheet" href="./css/uab.css" />
+    <script src="./js/funcions.js"></script>
 
 </head>
 
@@ -23,7 +25,7 @@
             <h3>Graus disponibles: </h3>
         </header>
         <ul>
-            <li><a href="https://www.uab.cat/enginyeria">Enginyeria Informàtica</a>
+            <li><a href="https://www.uab.cat/enginyeria" target="_blank">Enginyeria Informàtica</a>
                 <ul>
                     <li>Menció Enginyeria del software</li>
                     <li>Menció Enginyeria de computadors</li>
@@ -43,7 +45,7 @@
         </header>
         <p> Si us plau facilita'ns les teves dades </p>
         <div id="formDiv">
-            <form method="post" action=""><!-- completa -->
+            <form method="post" action="" onsubmit="return confirmaRegistre()"><!-- completa -->
                 <label for="nom">Nom complet:</label> <input type="text" name="nom" id="nom" /><br />
                 <label for="clau">Password:</label> <input type="password" name="clau" id="clau" /><br />
                 <label for="grau">Grau:</label>

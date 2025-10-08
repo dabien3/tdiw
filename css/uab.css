@@ -1,1 +1,14 @@
 /* completa */
+p.important{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aqua;
+    color: #333
+}
+h1 {
+    color: lightseagreen;
+
+}
+h1, h3 {
+    font-style: italic;
+}
